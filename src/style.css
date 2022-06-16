@@ -1,0 +1,47 @@
+.card-largura {
+	max-width: 18rem;
+}
+
+.imagem-carrossel-um {
+    object-fit: cover; /*object-fit, que indica como o elemento se comporta em relação ao seu contêiner.*/
+    object-position: 0 80%; /*object-position permite a movimentação das imagens em seus eixos X (horizontal) e Y (vertical), nesta ordem*/
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+    object-fit: cover;
+    /*object-position: 0 80%;*/
+    height: 400px;
+}
+
+.cor-titulo-principal{
+    color: #8B0000!important;
+    text-shadow: none!important;
+
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+  	text-shadow: 3px 3px 3px black;  /* deslocamento-x | deslocamento-y | raio-de-desfoque | cor */
+}
+
+.fonte-titulo2 {
+    font-family: 'Pacifico', cursive;
+    color: #8B0000;
+  	
+}
+
+.botao-cor-especial {
+    background-color: #8B0000; 
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: #8B0000;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
